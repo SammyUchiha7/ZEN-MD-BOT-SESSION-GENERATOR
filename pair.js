@@ -57,18 +57,18 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-NovaBot_V1 SESSION IS 
+ZEN-MD-BOT SESSION IS 
 SUCCESSFULLY
 CONNECTED ✅
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ Creator = 𖥘 Blake Hunter 𖥘
+❶ Creator = 𖥘 MX-GΔMΞCØDΞR 𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ WhattsApp Channel = https://chat.whatsapp.com/JqtuNXa8wSIEzspNg4kkXK
+❷ WhattsApp Channel = https://chat.whatsapp.com/F2JwN4RBlVABhbbEHabGDT
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
 Wanna talk to me?👉 https://t.me/Botdeveloperking👈
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 Blake Hunter*
+©*2024-2099 MX-GΔMΞCØDΞR*
 
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})

@@ -60,18 +60,18 @@ router.get('/', async (req, res) => {
 	
 				   let WASI_MD_TEXT = `
 
-NovaBot_V1 SESSION IS 
+ZEN-MD-BOT SESSION IS 
 SUCCESSFULLY
 CONNECTED ✅
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ Creator = 𖥘 Blake Hunter 𖥘
+❶ Creator = 𖥘 MX-GΔMΞCØDΞR 𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ WhattsApp Channel = https://chat.whatsapp.com/JqtuNXa8wSIEzspNg4kkXK
+❷ WhattsApp Channel = https://chat.whatsapp.com/F2JwN4RBlVABhbbEHabGDT
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
 Wanna talk to me?👉 https://t.me/Botdeveloperking 👈
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 Blake Hunter*
+©*2024-2099 MX-GΔMΞCØDΞR*
 _____________________________________
 	
 _Don't Forget To Give Star To My Repo_`

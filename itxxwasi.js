@@ -25,6 +25,6 @@ Don't Forget To Give Star
 
 module.exports = app
 /**
-    powered by Blake Hunter team 
+    powered by MX-GΔMΞCØDΞR team 
     join Whatsapp channel for more updates 
     **/

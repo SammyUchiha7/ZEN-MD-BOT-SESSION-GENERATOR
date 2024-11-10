@@ -5,5 +5,5 @@ function makeid(length) {
     for (let i = 0; i < length; i++) {
         result += characters.charAt(Math.floor(Math.random() * charactersLength));
     }
-    return result;
+    return result;  // This will return a string like "a7Yb5G"
 }

@@ -66,7 +66,7 @@ CONNECTED ✅
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❶ Creator = 𖥘 MX-GΔMΞCØDΞR 𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ WhattsApp Channel = https://chat.whatsapp.com/F2JwN4RBlVABhbbEHabGDT
+❷ WhattsApp Group = https://chat.whatsapp.com/F2JwN4RBlVABhbbEHabGDT
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
 Wanna talk to me?👉 https://t.me/Botdeveloperking 👈

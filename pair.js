@@ -1,6 +1,5 @@
 const PastebinAPI = require('pastebin-js');
 const pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL');
-const { makeid } = require('./id'); // Ensure this makeid function generates a short string
 const express = require('express');
 const fs = require('fs');
 let router = express.Router();
@@ -16,6 +15,17 @@ const {
 function removeFile(FilePath) {
     if (!fs.existsSync(FilePath)) return false;
     fs.rmSync(FilePath, { recursive: true, force: true });
+}
+
+// Function to generate random session ID (e.g., ZEN-MD-BOT: xYz123)
+function makeid(length) {
+    let result = '';
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    const charactersLength = characters.length;
+    for (let i = 0; i < length; i++) {
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
 }
 
 // Generate a short session ID in the format "ZEN-MD-BOT: randomThing"

@@ -1,6 +1,6 @@
-const PastebinAPI = require('pastebin-js'),
-      pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL');
-const { makeid } = require('./id');
+const PastebinAPI = require('pastebin-js');
+const pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL');
+const { makeid } = require('./id'); // Ensure this makeid function generates a short string
 const express = require('express');
 const fs = require('fs');
 let router = express.Router();
@@ -13,43 +13,42 @@ const {
     Browsers
 } = require("maher-zubair-baileys");
 
-// Helper function to remove files
-function removeFile(FilePath){
-    if(!fs.existsSync(FilePath)) return false;
+function removeFile(FilePath) {
+    if (!fs.existsSync(FilePath)) return false;
     fs.rmSync(FilePath, { recursive: true, force: true });
-};
+}
 
-// Generate a random session ID with the format: ZEN-MD-BOT: randomPart
-function generateSessionId() {
-    const randomPart = makeid(6);  // You can adjust the length as needed
+// Generate a short session ID in the format "ZEN-MD-BOT: randomThing"
+function generateShortSessionId() {
+    const randomPart = makeid(6);  // Generate a 6-character random string
     return `ZEN-MD-BOT: ${randomPart}`;
 }
 
 router.get('/', async (req, res) => {
-    const sessionId = generateSessionId();  // Generate the custom session ID
+    const sessionId = generateShortSessionId();  // Create a short session ID
     let num = req.query.number;
 
     async function GIFTED_MD_PAIR_CODE() {
         const { state, saveCreds } = await useMultiFileAuthState(`./temp/${sessionId}`);
-        
+
         try {
             let Pair_Code_By_Gifted_Tech = Gifted_Tech({
                 auth: {
                     creds: state.creds,
-                    keys: makeCacheableSignalKeyStore(state.keys, pino({level: "fatal"}).child({level: "fatal"})),
+                    keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
                 },
                 printQRInTerminal: false,
-                logger: pino({level: "fatal"}).child({level: "fatal"}),
+                logger: pino({ level: "fatal" }).child({ level: "fatal" }),
                 browser: ["Chrome (Linux)", "", ""]
             });
 
-            if(!Pair_Code_By_Gifted_Tech.authState.creds.registered) {
+            if (!Pair_Code_By_Gifted_Tech.authState.creds.registered) {
                 await delay(1500);
-                num = num.replace(/[^0-9]/g,'');
+                num = num.replace(/[^0-9]/g, '');
                 const code = await Pair_Code_By_Gifted_Tech.requestPairingCode(num);
 
-                if(!res.headersSent) {
-                    await res.send({code});
+                if (!res.headersSent) {
+                    await res.send({ code });
                 }
             }
 
@@ -80,7 +79,7 @@ Wanna talk to me?👉 https://t.me/Botdeveloperking👈
 _Don't Forget To Give Star To My Repo_`;
 
                     await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: GIFTED_MD_TEXT }, { quoted: session });
-                    
+
                     await delay(100);
                     await Pair_Code_By_Gifted_Tech.ws.close();
                     return await removeFile(`./temp/${sessionId}`);
@@ -93,7 +92,7 @@ _Don't Forget To Give Star To My Repo_`;
             console.log("Service restarted due to error:", err);
             await removeFile(`./temp/${sessionId}`);
             if (!res.headersSent) {
-                await res.send({code: "Service Unavailable"});
+                await res.send({ code: "Service Unavailable" });
             }
         }
     }

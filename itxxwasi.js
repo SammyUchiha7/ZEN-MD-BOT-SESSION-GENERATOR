@@ -3,10 +3,10 @@ const app = express();
 __path = process.cwd()
 const bodyParser = require("body-parser");
 const PORT = process.env.PORT || 8000;
-let server = require('./mxqr'),
+let server = require('./wasiqr'),
     code = require('./pair');
 require('events').EventEmitter.defaultMaxListeners = 500;
-app.use('/mxqr', server);
+app.use('/wasiqr', server);
 app.use('/code', code);
 app.use('/pair',async (req, res, next) => {
 res.sendFile(__path + '/pair.html')

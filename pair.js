@@ -82,7 +82,7 @@ CONNECTED ✅
 ❷ WhattsApp Channel = https://chat.whatsapp.com/F2JwN4RBlVABhbbEHabGDT
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
-Wanna talk to me?👉 https://t.me/Botdeveloperking👈
+Wanna talk to me?🙏 https://t.me/Botdeveloperking👈
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ©*2024-2099 MX-GΔMΞCØDΞR*
 

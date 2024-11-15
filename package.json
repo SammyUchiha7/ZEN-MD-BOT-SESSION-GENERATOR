@@ -1,5 +1,5 @@
 {
-    "description": "wasisession",
+    "description": "mxgamecoder",
     "main": "./itxxwasi.js",
   "engines" : { 
     "npm" : ">=9.7.2",
@@ -8,8 +8,8 @@
     "scripts": {
     "start": "node itxxwasi.js"
   },
-  "author": "WasiTech",
-  "license": "GPL-3.0 license",
+  "author": "MX-GΔMΞCØDΞR",
+  "license": "Apache-2.0 license",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.0",
     "maher-zubair-baileys": "^6.6.5",

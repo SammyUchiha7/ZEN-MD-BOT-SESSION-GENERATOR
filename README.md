@@ -1,7 +1,8 @@
 ### `*ZEN-MD-BOT SESSION ID GENERATOR 🥺*`
 <br>
-### `*DON'T FORGET TO STAR AND FORK THE REPO AND FOLLOW*`
-<br>
+### `*ZEN-MD-BOT SESSION ID GENERATOR 🥺*`
+
+<br><br>
 ### 1. FORK THIS REPO
 
 <a href='https://github.com/mxgamecoder/ZEN-MD-BOT-SESSION-GENERATOR/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-red?style=for-the-badge&logo=git&logoColor=white'/></a>

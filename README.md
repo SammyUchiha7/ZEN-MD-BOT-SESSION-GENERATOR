@@ -1,7 +1,6 @@
 ### `*ZEN-MD-BOT SESSION ID GENERATOR 🥺*`
 <br><br>
-
-<a><img src='https://files.catbox.moe/2gsfla.mp4'/></a>
+### DON'T FORGET TO STAR AND FORK THE REPO AND FOLLOW 
 <br><br>
 ### 1. FORK THIS REPO
 

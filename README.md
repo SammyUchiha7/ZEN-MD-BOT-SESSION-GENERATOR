@@ -4,8 +4,8 @@
 <br><br>
 ### 1. FORK THIS REPO
 
-<a href='https://github.com/mxgamecoder/ZEN-MD-BOT-SESSION-GENERATOR/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=black'/></a>
+<a href='https://github.com/mxgamecoder/ZEN-MD-BOT-SESSION-GENERATOR/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-white?style=for-the-badge&logo=git&logoColor=black'/></a>
 <br><br>
-### 2. TRY IT OUT
+### 2. MAGIC LINK
 
-<a href='https://zen-md-bot-session-generator-iylo.onrender.com' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<a href='https://zen-md-bot-session-generator-iylo.onrender.com' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/MAGIC LINK-black?style=for-the-badge&logo=git&logoColor=white'/></a>
